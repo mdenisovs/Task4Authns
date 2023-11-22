@@ -1,8 +1,18 @@
 # **Login with credentials:**
 
-**Login**: user
+**VIEW_INFO USER:**
 
-**Password**: psw
+**Login**: user1
+
+**Password**: password
+
+**VIEW_ADMIN USER:**
+
+**Login**: user2
+
+**Password**: password
+
+**ADMIN:**
 
 **Login**: admin
 
