@@ -12,14 +12,10 @@ import java.util.List;
 @Setter
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="user_id")
-    private long id;
-    @Column(name="name")
+    @Column(name="username")
     private String name;
     @Column(name="password")
     private String password;
     @Column(name="enabled")
     private Boolean enabled;
-    private int failedLoginAttempts;
 }
